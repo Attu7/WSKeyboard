@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890238CF1D6EDE9C009D5D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890238CE1D6EDE9C009D5D78 /* main.m */; };
+		890238D21D6EDE9C009D5D78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890238D11D6EDE9C009D5D78 /* AppDelegate.m */; };
+		890238D51D6EDE9C009D5D78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890238D41D6EDE9C009D5D78 /* ViewController.m */; };
+		890238D81D6EDE9C009D5D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890238D61D6EDE9C009D5D78 /* Main.storyboard */; };
+		890238DA1D6EDE9C009D5D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890238D91D6EDE9C009D5D78 /* Assets.xcassets */; };
+		890238DD1D6EDE9C009D5D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890238DB1D6EDE9C009D5D78 /* LaunchScreen.storyboard */; };
+		890238E81D6EDE9C009D5D78 /* WSKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890238E71D6EDE9C009D5D78 /* WSKeyboardTests.m */; };
+		890238F31D6EDE9C009D5D78 /* WSKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890238F21D6EDE9C009D5D78 /* WSKeyboardUITests.m */; };
+		890239031D6EE14E009D5D78 /* WSKeyboardHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 890239021D6EE14E009D5D78 /* WSKeyboardHeaderView.m */; };
+		890239061D6EE1D8009D5D78 /* Keyboard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890239051D6EE1D8009D5D78 /* Keyboard.xcassets */; };
+		899094901D6FFE2400D0B357 /* WSKeyboardEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990948F1D6FFE2400D0B357 /* WSKeyboardEmojiView.m */; };
+		899094931D70070300D0B357 /* WSKeyboardEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 899094921D70070300D0B357 /* WSKeyboardEmojiCell.m */; };
+		899094A51D70397A00D0B357 /* EmojiNameList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 899094A41D70397A00D0B357 /* EmojiNameList.plist */; };
+		89E2BBAA1D6FCE6100FE8771 /* WSKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2BBA91D6FCE6100FE8771 /* WSKeyboardViewController.m */; };
+		C081A2940B2EB833A54606BB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF153CE8BA335716B658017 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890238E41D6EDE9C009D5D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890238C21D6EDE9C009D5D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890238C91D6EDE9C009D5D78;
+			remoteInfo = WSKeyboard;
+		};
+		890238EF1D6EDE9C009D5D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890238C21D6EDE9C009D5D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890238C91D6EDE9C009D5D78;
+			remoteInfo = WSKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF153CE8BA335716B658017 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		890238CA1D6EDE9C009D5D78 /* WSKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890238CE1D6EDE9C009D5D78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		890238D01D6EDE9C009D5D78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		890238D11D6EDE9C009D5D78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		890238D31D6EDE9C009D5D78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		890238D41D6EDE9C009D5D78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		890238D71D6EDE9C009D5D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		890238D91D6EDE9C009D5D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890238DC1D6EDE9C009D5D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		890238DE1D6EDE9C009D5D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890238E31D6EDE9C009D5D78 /* WSKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890238E71D6EDE9C009D5D78 /* WSKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSKeyboardTests.m; sourceTree = "<group>"; };
+		890238E91D6EDE9C009D5D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890238EE1D6EDE9C009D5D78 /* WSKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890238F21D6EDE9C009D5D78 /* WSKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSKeyboardUITests.m; sourceTree = "<group>"; };
+		890238F41D6EDE9C009D5D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890239011D6EE14E009D5D78 /* WSKeyboardHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSKeyboardHeaderView.h; path = WSKeyboard/WSKeyboardHeaderView.h; sourceTree = "<group>"; };
+		890239021D6EE14E009D5D78 /* WSKeyboardHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSKeyboardHeaderView.m; path = WSKeyboard/WSKeyboardHeaderView.m; sourceTree = "<group>"; };
+		890239051D6EE1D8009D5D78 /* Keyboard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Keyboard.xcassets; sourceTree = "<group>"; };
+		8990948E1D6FFE2400D0B357 /* WSKeyboardEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSKeyboardEmojiView.h; path = WSKeyboard/WSKeyboardEmojiView.h; sourceTree = "<group>"; };
+		8990948F1D6FFE2400D0B357 /* WSKeyboardEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSKeyboardEmojiView.m; path = WSKeyboard/WSKeyboardEmojiView.m; sourceTree = "<group>"; };
+		899094911D70070300D0B357 /* WSKeyboardEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSKeyboardEmojiCell.h; path = WSKeyboard/WSKeyboardEmojiCell.h; sourceTree = "<group>"; };
+		899094921D70070300D0B357 /* WSKeyboardEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSKeyboardEmojiCell.m; path = WSKeyboard/WSKeyboardEmojiCell.m; sourceTree = "<group>"; };
+		899094A41D70397A00D0B357 /* EmojiNameList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojiNameList.plist; sourceTree = "<group>"; };
+		89E2BBA81D6FCE6100FE8771 /* WSKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSKeyboardViewController.h; path = WSKeyboard/WSKeyboardViewController.h; sourceTree = "<group>"; };
+		89E2BBA91D6FCE6100FE8771 /* WSKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSKeyboardViewController.m; path = WSKeyboard/WSKeyboardViewController.m; sourceTree = "<group>"; };
+		B7B7196707D0AF1ACE7641BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E1323F486B99956E90095C6F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890238C71D6EDE9C009D5D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C081A2940B2EB833A54606BB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890238E01D6EDE9C009D5D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890238EB1D6EDE9C009D5D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11401A8C42F8C9577B76854C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF153CE8BA335716B658017 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72C647B8A6CBF28D9512217F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1323F486B99956E90095C6F /* Pods.debug.xcconfig */,
+				B7B7196707D0AF1ACE7641BF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		890238C11D6EDE9C009D5D78 = {
+			isa = PBXGroup;
+			children = (
+				890238CC1D6EDE9C009D5D78 /* WSKeyboard */,
+				890238E61D6EDE9C009D5D78 /* WSKeyboardTests */,
+				890238F11D6EDE9C009D5D78 /* WSKeyboardUITests */,
+				890238CB1D6EDE9C009D5D78 /* Products */,
+				72C647B8A6CBF28D9512217F /* Pods */,
+				11401A8C42F8C9577B76854C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		890238CB1D6EDE9C009D5D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890238CA1D6EDE9C009D5D78 /* WSKeyboard.app */,
+				890238E31D6EDE9C009D5D78 /* WSKeyboardTests.xctest */,
+				890238EE1D6EDE9C009D5D78 /* WSKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890238CC1D6EDE9C009D5D78 /* WSKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				890239001D6EE11D009D5D78 /* WSKeyboard */,
+				890238D01D6EDE9C009D5D78 /* AppDelegate.h */,
+				890238D11D6EDE9C009D5D78 /* AppDelegate.m */,
+				890238D31D6EDE9C009D5D78 /* ViewController.h */,
+				890238D41D6EDE9C009D5D78 /* ViewController.m */,
+				890238D61D6EDE9C009D5D78 /* Main.storyboard */,
+				890238D91D6EDE9C009D5D78 /* Assets.xcassets */,
+				890238DB1D6EDE9C009D5D78 /* LaunchScreen.storyboard */,
+				899094A41D70397A00D0B357 /* EmojiNameList.plist */,
+				890238DE1D6EDE9C009D5D78 /* Info.plist */,
+				890238CD1D6EDE9C009D5D78 /* Supporting Files */,
+			);
+			path = WSKeyboard;
+			sourceTree = "<group>";
+		};
+		890238CD1D6EDE9C009D5D78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890238CE1D6EDE9C009D5D78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890238E61D6EDE9C009D5D78 /* WSKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				890238E71D6EDE9C009D5D78 /* WSKeyboardTests.m */,
+				890238E91D6EDE9C009D5D78 /* Info.plist */,
+			);
+			path = WSKeyboardTests;
+			sourceTree = "<group>";
+		};
+		890238F11D6EDE9C009D5D78 /* WSKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				890238F21D6EDE9C009D5D78 /* WSKeyboardUITests.m */,
+				890238F41D6EDE9C009D5D78 /* Info.plist */,
+			);
+			path = WSKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		890239001D6EE11D009D5D78 /* WSKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				890239011D6EE14E009D5D78 /* WSKeyboardHeaderView.h */,
+				890239021D6EE14E009D5D78 /* WSKeyboardHeaderView.m */,
+				8990948E1D6FFE2400D0B357 /* WSKeyboardEmojiView.h */,
+				8990948F1D6FFE2400D0B357 /* WSKeyboardEmojiView.m */,
+				899094911D70070300D0B357 /* WSKeyboardEmojiCell.h */,
+				899094921D70070300D0B357 /* WSKeyboardEmojiCell.m */,
+				89E2BBA81D6FCE6100FE8771 /* WSKeyboardViewController.h */,
+				89E2BBA91D6FCE6100FE8771 /* WSKeyboardViewController.m */,
+				890239051D6EE1D8009D5D78 /* Keyboard.xcassets */,
+			);
+			name = WSKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890238C91D6EDE9C009D5D78 /* WSKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890238F71D6EDE9C009D5D78 /* Build configuration list for PBXNativeTarget "WSKeyboard" */;
+			buildPhases = (
+				82277D82EFAC1BE6B2BA6531 /* Check Pods Manifest.lock */,
+				890238C61D6EDE9C009D5D78 /* Sources */,
+				890238C71D6EDE9C009D5D78 /* Frameworks */,
+				890238C81D6EDE9C009D5D78 /* Resources */,
+				FA1B009C99190E0F3B866D4F /* Embed Pods Frameworks */,
+				BC2C5D74612D3835849ED925 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSKeyboard;
+			productName = WSKeyboard;
+			productReference = 890238CA1D6EDE9C009D5D78 /* WSKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890238E21D6EDE9C009D5D78 /* WSKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890238FA1D6EDE9C009D5D78 /* Build configuration list for PBXNativeTarget "WSKeyboardTests" */;
+			buildPhases = (
+				890238DF1D6EDE9C009D5D78 /* Sources */,
+				890238E01D6EDE9C009D5D78 /* Frameworks */,
+				890238E11D6EDE9C009D5D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890238E51D6EDE9C009D5D78 /* PBXTargetDependency */,
+			);
+			name = WSKeyboardTests;
+			productName = WSKeyboardTests;
+			productReference = 890238E31D6EDE9C009D5D78 /* WSKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890238ED1D6EDE9C009D5D78 /* WSKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890238FD1D6EDE9C009D5D78 /* Build configuration list for PBXNativeTarget "WSKeyboardUITests" */;
+			buildPhases = (
+				890238EA1D6EDE9C009D5D78 /* Sources */,
+				890238EB1D6EDE9C009D5D78 /* Frameworks */,
+				890238EC1D6EDE9C009D5D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890238F01D6EDE9C009D5D78 /* PBXTargetDependency */,
+			);
+			name = WSKeyboardUITests;
+			productName = WSKeyboardUITests;
+			productReference = 890238EE1D6EDE9C009D5D78 /* WSKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890238C21D6EDE9C009D5D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Attu;
+				TargetAttributes = {
+					890238C91D6EDE9C009D5D78 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5PQAK4QS24;
+					};
+					890238E21D6EDE9C009D5D78 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 890238C91D6EDE9C009D5D78;
+					};
+					890238ED1D6EDE9C009D5D78 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 890238C91D6EDE9C009D5D78;
+					};
+				};
+			};
+			buildConfigurationList = 890238C51D6EDE9C009D5D78 /* Build configuration list for PBXProject "WSKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890238C11D6EDE9C009D5D78;
+			productRefGroup = 890238CB1D6EDE9C009D5D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890238C91D6EDE9C009D5D78 /* WSKeyboard */,
+				890238E21D6EDE9C009D5D78 /* WSKeyboardTests */,
+				890238ED1D6EDE9C009D5D78 /* WSKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890238C81D6EDE9C009D5D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890238DD1D6EDE9C009D5D78 /* LaunchScreen.storyboard in Resources */,
+				890238DA1D6EDE9C009D5D78 /* Assets.xcassets in Resources */,
+				890239061D6EE1D8009D5D78 /* Keyboard.xcassets in Resources */,
+				899094A51D70397A00D0B357 /* EmojiNameList.plist in Resources */,
+				890238D81D6EDE9C009D5D78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890238E11D6EDE9C009D5D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890238EC1D6EDE9C009D5D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82277D82EFAC1BE6B2BA6531 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2C5D74612D3835849ED925 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1B009C99190E0F3B866D4F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890238C61D6EDE9C009D5D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890239031D6EE14E009D5D78 /* WSKeyboardHeaderView.m in Sources */,
+				899094931D70070300D0B357 /* WSKeyboardEmojiCell.m in Sources */,
+				890238D51D6EDE9C009D5D78 /* ViewController.m in Sources */,
+				890238D21D6EDE9C009D5D78 /* AppDelegate.m in Sources */,
+				890238CF1D6EDE9C009D5D78 /* main.m in Sources */,
+				899094901D6FFE2400D0B357 /* WSKeyboardEmojiView.m in Sources */,
+				89E2BBAA1D6FCE6100FE8771 /* WSKeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890238DF1D6EDE9C009D5D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890238E81D6EDE9C009D5D78 /* WSKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890238EA1D6EDE9C009D5D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890238F31D6EDE9C009D5D78 /* WSKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890238E51D6EDE9C009D5D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890238C91D6EDE9C009D5D78 /* WSKeyboard */;
+			targetProxy = 890238E41D6EDE9C009D5D78 /* PBXContainerItemProxy */;
+		};
+		890238F01D6EDE9C009D5D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890238C91D6EDE9C009D5D78 /* WSKeyboard */;
+			targetProxy = 890238EF1D6EDE9C009D5D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890238D61D6EDE9C009D5D78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890238D71D6EDE9C009D5D78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		890238DB1D6EDE9C009D5D78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890238DC1D6EDE9C009D5D78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890238F51D6EDE9C009D5D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		890238F61D6EDE9C009D5D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890238F81D6EDE9C009D5D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1323F486B99956E90095C6F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WSKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Attu.WSKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		890238F91D6EDE9C009D5D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B7196707D0AF1ACE7641BF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WSKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Attu.WSKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		890238FB1D6EDE9C009D5D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Attu.WSKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSKeyboard.app/WSKeyboard";
+			};
+			name = Debug;
+		};
+		890238FC1D6EDE9C009D5D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Attu.WSKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSKeyboard.app/WSKeyboard";
+			};
+			name = Release;
+		};
+		890238FE1D6EDE9C009D5D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Attu.WSKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSKeyboard;
+			};
+			name = Debug;
+		};
+		890238FF1D6EDE9C009D5D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.Attu.WSKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890238C51D6EDE9C009D5D78 /* Build configuration list for PBXProject "WSKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890238F51D6EDE9C009D5D78 /* Debug */,
+				890238F61D6EDE9C009D5D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890238F71D6EDE9C009D5D78 /* Build configuration list for PBXNativeTarget "WSKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890238F81D6EDE9C009D5D78 /* Debug */,
+				890238F91D6EDE9C009D5D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890238FA1D6EDE9C009D5D78 /* Build configuration list for PBXNativeTarget "WSKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890238FB1D6EDE9C009D5D78 /* Debug */,
+				890238FC1D6EDE9C009D5D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890238FD1D6EDE9C009D5D78 /* Build configuration list for PBXNativeTarget "WSKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890238FE1D6EDE9C009D5D78 /* Debug */,
+				890238FF1D6EDE9C009D5D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890238C21D6EDE9C009D5D78 /* Project object */;
+}
